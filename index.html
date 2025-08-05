@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wambui's Website Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!--------------------header-------------------->
+  <div id="header">
+    <div class="container">
+       <nav>
+        <img src="Name Logo.png" class="logo" alt="Logo" />
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#interests">Interests</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-content">
+        <div class="header-text">
+        <p><span>Aspiring</span> Web Developer</p>
+          <h1>Hi, I`m <span>Wambui</span> Njuguna</h1>
+          <div class="fun-fact-container">
+              <img src="fun-fact_5278655.png" alt="Fun Fact Icon" class="fun-fact-icon" onclick="toggleFunFact()"/>
+              <p id="fun-fact-text" class="hidden">"In Kikuyu, Wambui is derived from Wambui-Micore, which means zebra. <br>According to tradition, 
+              when Wambui was born to Gikuyu and Mumbi—the first Agikuyu man and woman—she was exceptionally beautiful.</br> 
+              To capture this quality, they named her after the most beautiful creature they knew: the zebra.<br> 
+              However, like the zebra itself, Wambui should not be mistaken for a merely beautiful, harmless creature.</br> 
+              When provoked, she can be quite formidable. My mother chose well—this name and its meaning describe me perfectly.</p>
+          </div>
+        </div>
+        <div class="image-section">
+          <img src="Maasai Regalia.jpg" alt="Profile Photo" class="profile-photo" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!----------------about------------------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="D and G photo.jpg" alt="About Photo" class="about-photo" />
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I am a Student of the Social Sciences and Software Engineering.
+             My goal is to utilize Technology in Policy Making. 
+             Technology is the future and as a future leader, 
+             I need to embrace it whole-heartedly</p>
+
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('programminglanguages')">Programming Languages</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+          <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        </div>
+        <div class="tab-contents active-tab" id="programminglanguages">
+          <ul>
+            <li><span>Python</span><br>Beginner Proficiency</li>
+            <li><span>JavaScript</span><br>Beginner Proficiency</li>
+            <li><span>Java</span><br>Beginner Proficiency</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>University of Nairobi</span><br>Economics & Political Science</li>
+            <li><span>Power Learn Project</span><br>Software Engineering Scholarship</li>
+            <li><span>Precious Blood Riruta</span><br>High School Certificate</li>
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="experience">
+          <ul>
+            <li><span>Ufungamano-CSCL</span><br>Internship at the Accounts Department</li>
+            <li><span>University of Nairobi</span><br>Peer Tutor</li>
+            <li><span>St Marys Sportsview Academy</span><br>Assistant Secretary</li>
+          </ul>
+        </div>
+  </div> 
+</div>
+
+  <!---------------------interests----------------->
+<div id="interests">
+  <div class="container">
+    <h1 class="sub-title">My Interests</h1>
+    <div class="interest-items">
+      <div class="interest" onclick="toggleLayer(this)">
+        <img src="interest-tech.jpg" alt="Tech Interest">
+        <div class="layer">
+          <h3>Tech Enthusiast</h3>
+          <p>Growing up, I thought it was so cool when hackers could hack into some complicated system and save the day and
+            here I am, on my way to becoming a tech guru!
+          </p>
+        </div>
+      </div>
+      <div class="interest" onclick="toggleLayer(this)">
+        <img src="img-library.jpg" alt="Social Sciences Interest">
+        <div class="layer">
+          <h3>Student of the Social Sciences</h3>
+          <p> Employing Scientific principles in understanding human behaviour has been an eye opener.</p>
+        </div>
+      </div>
+      <div class="interest" onclick="toggleLayer(this)">
+        <img src="interest-beauty.jpg" alt="Beauty Interest">
+        <div class="layer">
+          <h3>Cosmetology</h3>
+          <p>Beauty dynamics always guarantees a learning opportunity. Plus, a girl loves to look good</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------projects-------------->
+<div id ="projects" class="projects">
+  <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="projects-list">
+      <div>                    
+        <h2>Loreal Brandstorm Challenge 2025</h2>
+        <p>The 2025 Loreal Brandstorm Challenge was solely focused on building hair and beauty solutions for men. At first,
+          It seemed nearly impossible to come up with an idea. However, with the help of my team members we managed to submit 
+        a wonderful project. </p>
+        <a href="https://1drv.ms/b/c/7b584ce795ba0558/EXCmUvIKi99Drgy69a3hzOgB4FgFag7b_6uw_aWia7FMkQ">Learn More</a>  
+      </div>
+      
+      <div>                    
+        <h2>My Research Proposal</h2>
+        <p>My paper tackles the Kenyan labour immigration problem and dubs it `The Modern Slave Trade`
+          Discover the causes and possible solutions to this persistent problem.</p>
+        <a href="https://1drv.ms/w/c/7b584ce795ba0558/EWth_jdhWbZJhdPDMirR-igBcnQbtaQZ7QB59WfoCmBMyg?e=T7gPTl ">Learn More</a>  
+      </div>
+      
+      <div>                    
+        <h2>This Portfolio!</h2>
+        <p>Building this website portfolio as a beginner in tech has been a whirlwind. The key take-away is 
+          that you can do anything if you set your mind on it. To many more projects!</p>
+        <a href="#">Learn More</a>  
+      </div>
+      
+  </div>
+<!------------------contact---------------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p>Naeobobo@gmail.com
+          <img src="mail_9068642.png" class="social-icon" alt="mail-icon">
+        </p>
+        <p>+254 725 814 129
+          <img src="phone-call_4213179.png" class="social-icon" alt="phone-icon">
+        </p>
+        <div class="social-icons">
+          <a href="https://instagram.com/naeomynjugunna" target="_blank" rel="noopener noreferrer">
+            <img src="instagram_408758.png" class="social-icon" alt="Instagram">
+          </a>
+          <a href="https://www.facebook.com/naeomy.njuguna" target="_blank" rel="noopener noreferrer">
+            <img src="facebook_3536394.png" class="social-icon" alt="Facebook">
+          </a>
+          <a href="https://linkedin.com/in/naomi-njuguna-33" target="_blank" rel="noopener noreferrer">
+            <img src="linkedin_174857.png" class="social-icon" alt="Linkedin">
+          </a>
+        </div>
+      
+        <a href="Wambui`s CV.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet" class="form">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+        <span id="msg"></span>
+
+       
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2025 Wambui Njuguna. All rights reserved.</p>
+
+  </div>
+</div>
+
+<script>
+  function toggleFunFact() {
+    const fact = document.getElementById("fun-fact-text");
+    fact.classList.toggle("hidden");
+  }
+</script>
+
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+  function toggleLayer(element) {
+  const layer = element.querySelector('.layer');
+  const isVisible = layer.style.display === 'block';
+
+  // Hide all layers first
+  const allLayers = document.querySelectorAll('.interest .layer');
+  allLayers.forEach(l => l.style.display = 'none');
+
+  // Show clicked layer if it was hidden
+  if (!isVisible) {
+    layer.style.display = 'block';
+  }
+}
+
+
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwKIbbhUrjWl97PLiUR3rL4feVfhDNp9Ke01QlaCZf26a0Mm0pyUQRJ48t6lfu284sD3A/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfuly"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
+
+
+
